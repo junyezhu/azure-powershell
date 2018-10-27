@@ -793,7 +793,7 @@ function Test-ConnectionMonitor
     # Setup
     $resourceGroupName = Get-NrpResourceGroupName
     $nwName = Get-NrpResourceName
-    $location = Get-PilotLocation
+    $location = "eastus"
     $resourceTypeParent = "Microsoft.Network/networkWatchers"
     $nwLocation = Get-ProviderLocation $resourceTypeParent
     $nwRgName = Get-NrpResourceGroupName
