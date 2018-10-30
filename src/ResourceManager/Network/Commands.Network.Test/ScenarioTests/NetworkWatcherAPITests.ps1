@@ -200,7 +200,7 @@ function Test-GetSecurityGroupView
     # Setup
     $resourceGroupName = Get-NrpResourceGroupName
     $nwName = Get-NrpResourceName
-    $location = "westcentralus"
+    $location = "eastus"
     $resourceTypeParent = "Microsoft.Network/networkWatchers"
     $nwLocation = Get-ProviderLocation $resourceTypeParent
     $nwRgName = Get-NrpResourceGroupName
