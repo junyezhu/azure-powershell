@@ -200,7 +200,7 @@ function Test-GetSecurityGroupView
     # Setup
     $resourceGroupName = Get-NrpResourceGroupName
     $nwName = Get-NrpResourceName
-    $location = Get-PilotLocation
+    $location = "westcentralus"
     $resourceTypeParent = "Microsoft.Network/networkWatchers"
     $nwLocation = Get-ProviderLocation $resourceTypeParent
     $nwRgName = Get-NrpResourceGroupName
@@ -392,7 +392,7 @@ function Test-PacketCapture
     # Setup
     $resourceGroupName = Get-NrpResourceGroupName
     $nwName = Get-NrpResourceName
-    $location = Get-PilotLocation
+    $location = "westcentralus"
     $resourceTypeParent = "Microsoft.Network/networkWatchers"
     $nwLocation = Get-ProviderLocation $resourceTypeParent
     $nwRgName = Get-NrpResourceGroupName
@@ -489,7 +489,7 @@ function Test-Troubleshoot
     # Setup
     $resourceGroupName = Get-NrpResourceGroupName
     $nwName = Get-NrpResourceName
-    $location = Get-PilotLocation
+    $location = "westcentralus"
     $resourceTypeParent = "Microsoft.Network/networkWatchers"
     $nwLocation = Get-ProviderLocation $resourceTypeParent
     $nwRgName = Get-NrpResourceGroupName
